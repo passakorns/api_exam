@@ -22,7 +22,6 @@ class UserApi {
         email: person['email'],
         gender: person['gender'],
         picture: person['picture']['thumbnail'],
-        nat: person['nat'],
         phone: person['phone'],
         name: name
       );

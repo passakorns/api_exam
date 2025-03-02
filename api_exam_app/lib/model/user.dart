@@ -7,7 +7,6 @@ class User{
   final String phone;
   final String cell;
   final String picture;
-  final String nat;
   final UserName name;
 
   User({
@@ -16,7 +15,6 @@ class User{
     required this.phone,
     required this.cell,
     required this.picture,
-    required this.nat,
     required this.name
   });
 

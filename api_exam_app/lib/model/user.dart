@@ -18,7 +18,4 @@ class User{
     required this.name
   });
 
-  String get fullName{
-    return '${name.title}. ${name.first} ${name.last}';
-  }
 }
